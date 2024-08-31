@@ -1,0 +1,17 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListInJava3 {
+
+	public static void main(String[] args) {
+
+		
+		List<Student> s=new ArrayList<Student>();
+		
+		s.add(new Student(20,"Rahul"));
+		s.add(new Student(30,"Raju"));
+	}
+
+}

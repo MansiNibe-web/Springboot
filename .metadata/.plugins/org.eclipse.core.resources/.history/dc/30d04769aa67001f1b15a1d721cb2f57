@@ -1,0 +1,14 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListInJava4 {
+
+	public static void main(String[] args) {
+
+		List<Student> s=new ArrayList<E>();
+		
+	}
+
+}

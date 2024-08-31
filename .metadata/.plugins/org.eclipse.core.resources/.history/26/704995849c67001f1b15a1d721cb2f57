@@ -1,0 +1,20 @@
+package com.example.Demo21.entity;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+
+@Entity
+public class Books {
+	
+	private int id;
+	private String bookname;
+	private String bookauthor;
+	private String price;
+	
+	
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name="rollno")
+	private Student student;
+
+}

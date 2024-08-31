@@ -1,0 +1,26 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListInJava4 {
+
+	public static void main(String[] args) {
+
+		List<Student> s=new ArrayList<Student>();
+		s.add(new Student(20,"raju"));
+		s.add(new Student(40,"ram"));
+		
+		
+//		for(Student st:s)
+//		{
+//			System.out.println(st.id);
+//			System.out.println(st.name);
+//			System.out.println("*************************");
+//		}
+//		
+		
+		Iterator<Student> itr=s.iterator();
+	}
+
+}

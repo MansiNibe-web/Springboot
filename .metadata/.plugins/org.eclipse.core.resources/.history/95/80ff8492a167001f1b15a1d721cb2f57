@@ -1,0 +1,11 @@
+package collection;
+//import collection.Employee;
+import java.util.List;
+public class ListInJava {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}

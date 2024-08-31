@@ -1,0 +1,14 @@
+package collection;
+
+public class Employee {
+	
+	
+	int id;
+	String name;
+	public Employee()
+	{
+		this.id=id;
+		this.name=name;
+	}
+
+}

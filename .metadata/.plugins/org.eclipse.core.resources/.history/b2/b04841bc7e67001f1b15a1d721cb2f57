@@ -1,0 +1,22 @@
+package com.example.Demo21.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+
+@Entity
+public class Student {
+	
+	@Id
+	private int rollno;
+	private String name;
+	private String mob;
+	private int age;
+	
+	@OneToMany(mappedBy = "student")
+	private Books books;
+	
+	
+
+
+}

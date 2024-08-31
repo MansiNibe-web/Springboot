@@ -1,0 +1,20 @@
+package collection;
+import java.util.ArrayList;
+//import collection.Employee;
+import java.util.List;
+public class ListInJava {
+	
+	public static void main(String args[])
+	{
+		List<Employee> hcl=new ArrayList<Employee>();
+		
+		Employee e= new Employee(20,"Mansi");
+		
+		
+		hcl.add(e);
+		hcl.add(new Employee(30,"Mahesh"))
+		
+		
+	}
+
+}
